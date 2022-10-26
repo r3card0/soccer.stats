@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS leagues(league_id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT
+, league_name VARCHAR(100) UNIQUE
+, country_id INTEGER
+, league_level INTEGER
+, insert_date DATETIME);
