@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS seasons(season_id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT
+, season_name VARCHAR(100) UNIQUE
+, start_date DATETIME
+, end_date DATETIME
+, league_id INTEGER
+, insert_date DATETIME)
