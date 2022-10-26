@@ -15,3 +15,8 @@ def insert_seasons():
     insert_ = "INSERT INTO soccer.seasons(season_name,start_date,end_date,league_id,insert_date) VALUES(%s,%s,%s,%s,%s)"
     return insert_
 
+def insert_teams_seasons():
+    insert_ = "INSERT INTO soccer.teams_seasons(team_id,season_id,insert_date) VALUES(%s,%s,%s)"
+    return insert_
+
+
